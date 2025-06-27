@@ -1,0 +1,428 @@
+[
+  {
+    "context": "The CIA Triad is a foundational model for information security.",
+    "question": "Which component of the CIA Triad primarily focuses on preventing unauthorized disclosure of information?",
+    "answer": "Confidentiality",
+    "options": [
+      "Confidentiality",
+      "Integrity",
+      "Availability",
+      "Non-repudiation"
+    ],
+    "type": "MCQ",
+    "difficulty": "beginner",
+    "goal": "Cyber Security",
+    "topic": "Confidentiality"
+  },
+  {
+    "context": "When a system ensures that data remains unaltered and accurate, it's addressing a specific security principle.",
+    "question": "In the CIA Triad, which principle guarantees that data has not been tampered with and is accurate?",
+    "answer": "Integrity",
+    "options": [
+      "Confidentiality",
+      "Integrity",
+      "Availability",
+      "Authentication"
+    ],
+    "type": "MCQ",
+    "difficulty": "beginner",
+    "goal": "Cyber Security",
+    "topic": "Integrity"
+  },
+  {
+    "context": "Ensuring legitimate users can access information and resources when needed is crucial for business operations.",
+    "question": "What aspect of the CIA Triad ensures that systems and data are accessible to authorized users when required?",
+    "answer": "Availability",
+    "options": [
+      "Confidentiality",
+      "Integrity",
+      "Availability",
+      "Authorization"
+    ],
+    "type": "MCQ",
+    "difficulty": "beginner",
+    "goal": "Cyber Security",
+    "topic": "Availability"
+  },
+  {
+    "context": "Authentication is the process of verifying a user's identity.",
+    "question": "Which of the following is an example of a strong authentication factor?",
+    "answer": "Biometrics (e.g., fingerprint scan)",
+    "options": [
+      "Something you know (e.g., password)",
+      "Something you have (e.g., smart card)",
+      "Something you are (e.g., biometrics)",
+      "Something you do (e.g., typing rhythm)"
+    ],
+    "type": "MCQ",
+    "difficulty": "intermediate",
+    "goal": "Cyber Security",
+    "topic": "Authentication"
+  },
+  {
+    "context": "Authorization determines what an authenticated user is permitted to do.",
+    "question": "After successfully authenticating, what security principle dictates what actions a user is allowed to perform on a system?",
+    "answer": "Authorization",
+    "options": [
+      "Authentication",
+      "Authorization",
+      "Non-repudiation",
+      "Accountability"
+    ],
+    "type": "MCQ",
+    "difficulty": "beginner",
+    "goal": "Cyber Security",
+    "topic": "Authorization"
+  },
+  {
+    "context": "Non-repudiation provides undeniable proof of an action or event.",
+    "question": "Which security principle prevents an entity from denying an action they performed, such as sending a message or making a transaction?",
+    "answer": "Non-repudiation",
+    "options": [
+      "Confidentiality",
+      "Integrity",
+      "Non-repudiation",
+      "Availability"
+    ],
+    "type": "MCQ",
+    "difficulty": "intermediate",
+    "goal": "Cyber Security",
+    "topic": "Non-repudiation"
+  },
+  {
+    "context": "Risk management involves identifying, assessing, and mitigating risks.",
+    "question": "Which phase of risk management involves determining the likelihood and impact of identified threats?",
+    "answer": "Risk Assessment",
+    "options": [
+      "Risk Identification",
+      "Risk Assessment",
+      "Risk Mitigation",
+      "Risk Monitoring"
+    ],
+    "type": "MCQ",
+    "difficulty": "intermediate",
+    "goal": "Cyber Security",
+    "topic": "Risk Management"
+  },
+  {
+    "context": "A vulnerability is a weakness that can be exploited by a threat.",
+    "question": "Which of the following best describes a 'vulnerability' in cybersecurity?",
+    "answer": "A weakness in a system or design that can be exploited by a threat.",
+    "options": [
+      "A malicious act that attempts to damage or gain unauthorized access.",
+      "A person or entity with the potential to cause harm.",
+      "A weakness in a system or design that can be exploited by a threat.",
+      "The combination of all possible points where an attacker can try to enter a system."
+    ],
+    "type": "MCQ",
+    "difficulty": "beginner",
+    "goal": "Cyber Security",
+    "topic": "Vulnerability Management"
+  },
+  {
+    "context": "A threat is a potential cause of an unwanted incident.",
+    "question": "What is the primary difference between a 'threat' and a 'vulnerability'?",
+    "answer": "A threat is a potential danger, while a vulnerability is a weakness that a threat can exploit.",
+    "options": [
+      "A threat is a malicious actor, a vulnerability is their tool.",
+      "A threat is a potential danger, while a vulnerability is a weakness that a threat can exploit.",
+      "A threat is an external attack, a vulnerability is an internal error.",
+      "There is no significant difference; the terms are interchangeable."
+    ],
+    "type": "MCQ",
+    "difficulty": "intermediate",
+    "goal": "Cyber Security",
+    "topic": "Threat Assessment"
+  },
+  {
+    "context": "The attack surface represents all possible points where an unauthorized user can try to enter or extract data from an environment.",
+    "question": "Which concept represents the sum of all points where an unauthorized user can attempt to access or compromise a system?",
+    "answer": "Attack Surface",
+    "options": [
+      "Threat Landscape",
+      "Attack Vector",
+      "Attack Surface",
+      "Vulnerability Assessment"
+    ],
+    "type": "MCQ",
+    "difficulty": "intermediate",
+    "goal": "Cyber Security",
+    "topic": "Attack Surface"
+  },
+  {
+    "context": "Security policies are high-level statements that provide guidance on how to manage information security.",
+    "question": "What is the primary purpose of a security policy in an organization?",
+    "answer": "To provide high-level guidance and rules for information security practices.",
+    "options": [
+      "To implement specific security technologies.",
+      "To conduct penetration testing.",
+      "To provide high-level guidance and rules for information security practices.",
+      "To train employees on cybersecurity awareness."
+    ],
+    "type": "MCQ",
+    "difficulty": "beginner",
+    "goal": "Cyber Security",
+    "topic": "Security Policies"
+  },
+  {
+    "context": "Security controls are safeguards or countermeasures to avoid, detect, counteract, or minimize security risks.",
+    "question": "Which type of security control aims to stop an incident from occurring in the first place?",
+    "answer": "Preventive Control",
+    "options": [
+      "Detective Control",
+      "Corrective Control",
+      "Preventive Control",
+      "Compensating Control"
+    ],
+    "type": "MCQ",
+    "difficulty": "beginner",
+    "goal": "Cyber Security",
+    "topic": "Preventive Controls"
+  },
+  {
+    "context": "Security controls can be categorized by their function.",
+    "question": "What type of security control is a Security Information and Event Management (SIEM) system that monitors logs for suspicious activity?",
+    "answer": "Detective Control",
+    "options": [
+      "Preventive Control",
+      "Detective Control",
+      "Corrective Control",
+      "Physical Control"
+    ],
+    "type": "MCQ",
+    "difficulty": "intermediate",
+    "goal": "Cyber Security",
+    "topic": "Detective Controls"
+  },
+  {
+    "context": "After a security incident has occurred, certain controls are put in place to restore systems.",
+    "question": "Which category of security control focuses on minimizing the damage of a security incident and restoring normal operations?",
+    "answer": "Corrective Control",
+    "options": [
+      "Preventive Control",
+      "Detective Control",
+      "Corrective Control",
+      "Administrative Control"
+    ],
+    "type": "MCQ",
+    "difficulty": "beginner",
+    "goal": "Cyber Security",
+    "topic": "Corrective Controls"
+  },
+  {
+    "context": "Multi-factor authentication (MFA) enhances security by requiring multiple verification methods.",
+    "question": "How does multi-factor authentication (MFA) contribute to the 'Authentication' principle in cybersecurity?",
+    "answer": "It combines two or more independent credentials to verify a user's identity, making it harder for unauthorized access.",
+    "options": [
+      "By encrypting user passwords before storage.",
+      "By providing a single, strong password for all accounts.",
+      "By combining two or more independent credentials to verify a user's identity, making it harder for unauthorized access.",
+      "By logging all user activities for auditing purposes."
+    ],
+    "type": "MCQ",
+    "difficulty": "advanced",
+    "goal": "Cyber Security",
+    "topic": "Authentication"
+  },
+  {
+    "context": "Digital signatures are a key component of non-repudiation in electronic communications.",
+    "question": "In the context of non-repudiation, how do digital signatures specifically help in proving the origin of a digital message?",
+    "answer": "By using cryptographic techniques to uniquely link a message to its sender, making it verifiable and difficult to deny.",
+    "options": [
+      "By encrypting the message content to prevent unauthorized viewing.",
+      "By attaching a timestamp to the message to record its creation time.",
+      "By using cryptographic techniques to uniquely link a message to its sender, making it verifiable and difficult to deny.",
+      "By storing copies of all sent messages in a central repository."
+    ],
+    "type": "MCQ",
+    "difficulty": "advanced",
+    "goal": "Cyber Security",
+    "topic": "Digital Signatures"
+  },
+  {
+    "context": "The concept of 'least privilege' is a fundamental security principle.",
+    "question": "Which security principle, closely related to Authorization, states that users should only be granted the minimum access necessary to perform their job functions?",
+    "answer": "Least Privilege",
+    "options": [
+      "Separation of Duties",
+      "Need-to-know",
+      "Least Privilege",
+      "Role-Based Access Control"
+    ],
+    "type": "MCQ",
+    "difficulty": "intermediate",
+    "goal": "Cyber Security",
+    "topic": "Least Privilege"
+  },
+  {
+    "context": "Supply chain security has become a major concern in risk management.",
+    "question": "When considering risk management, what unique challenge does a complex global supply chain introduce regarding vulnerabilities?",
+    "answer": "It expands the attack surface significantly, as a vulnerability in any component from any vendor could compromise the entire system.",
+    "options": [
+      "It makes it easier to implement uniform security policies across all vendors.",
+      "It reduces the overall number of potential threats.",
+      "It expands the attack surface significantly, as a vulnerability in any component from any vendor could compromise the entire system.",
+      "It primarily affects physical security, not logical security."
+    ],
+    "type": "MCQ",
+    "difficulty": "advanced",
+    "goal": "Cyber Security",
+    "topic": "Supply Chain Security"
+  },
+  {
+    "context": "The relationship between vulnerabilities, threats, and attacks is crucial for understanding cybersecurity incidents.",
+    "question": "An attacker exploits a previously unknown software flaw to gain unauthorized access. In this scenario, what role does the 'unknown software flaw' play?",
+    "answer": "Vulnerability",
+    "options": [
+      "Threat",
+      "Attack",
+      "Attack Surface",
+      "Vulnerability"
+    ],
+    "type": "MCQ",
+    "difficulty": "intermediate",
+    "goal": "Cyber Security",
+    "topic": "Vulnerability Management"
+  },
+  {
+    "context": "Developing a comprehensive security policy requires careful consideration of various factors.",
+    "question": "Which of the following is NOT a primary goal of a well-defined security policy?",
+    "answer": "To replace the need for security technology.",
+    "options": [
+      "To define acceptable use of IT resources.",
+      "To ensure compliance with legal and regulatory requirements.",
+      "To replace the need for security technology.",
+      "To establish clear responsibilities for information security."
+    ],
+    "type": "MCQ",
+    "difficulty": "advanced",
+    "goal": "Cyber Security",
+    "topic": "Security Policies"
+  },
+  {
+    "context": "The CIA Triad is a cornerstone of information security.",
+    "question": "Explain the concept of 'Confidentiality' within the CIA Triad and provide a real-world example of its application.",
+    "answer": "Confidentiality ensures that information is not disclosed to unauthorized individuals, entities, or processes. An example is encrypting sensitive customer data in a database to prevent unauthorized access.",
+    "type": "short answer",
+    "difficulty": "beginner",
+    "goal": "Cyber Security",
+    "topic": "Confidentiality"
+  },
+  {
+    "context": "Data integrity is paramount for reliable systems.",
+    "question": "Describe 'Integrity' in the context of the CIA Triad and give an example of a mechanism used to maintain it.",
+    "answer": "Integrity guarantees that data has not been altered or destroyed in an unauthorized manner and remains accurate and complete. A common mechanism is using cryptographic hashes (e.g., MD5, SHA-256) to verify data integrity.",
+    "type": "short answer",
+    "difficulty": "beginner",
+    "goal": "Cyber Security",
+    "topic": "Integrity"
+  },
+  {
+    "context": "System availability is critical for business continuity.",
+    "question": "What does 'Availability' mean in the CIA Triad, and how might a Distributed Denial of Service (DDoS) attack impact it?",
+    "answer": "Availability ensures that authorized users have timely and uninterrupted access to information and resources. A DDoS attack overloads a system or network with traffic, making it unavailable to legitimate users, thus directly impacting availability.",
+    "type": "short answer",
+    "difficulty": "intermediate",
+    "goal": "Cyber Security",
+    "topic": "Availability"
+  },
+  {
+    "context": "Authentication is the first step in granting access.",
+    "question": "Differentiate between 'authentication' and 'authorization' in cybersecurity.",
+    "answer": "Authentication is the process of verifying a user's identity (e.g., username and password), while authorization determines what specific resources or actions that authenticated user is permitted to access or perform.",
+    "type": "short answer",
+    "difficulty": "beginner",
+    "goal": "Cyber Security",
+    "topic": "Access Control"
+  },
+  {
+    "context": "Non-repudiation is essential for trust in digital transactions.",
+    "question": "How does 'non-repudiation' provide assurance in digital communications, and what technology is commonly used to achieve it?",
+    "answer": "Non-repudiation provides irrefutable proof that a specific action or event occurred, preventing an individual from falsely denying their involvement. Digital signatures, using public-key cryptography, are commonly used to achieve non-repudiation.",
+    "type": "short answer",
+    "difficulty": "intermediate",
+    "goal": "Cyber Security",
+    "topic": "Non-repudiation"
+  },
+  {
+    "context": "Risk management is a continuous process.",
+    "question": "Briefly explain the four main components of the risk management process.",
+    "answer": "The four main components are Risk Identification (finding potential risks), Risk Assessment (evaluating likelihood and impact), Risk Mitigation (implementing controls to reduce risk), and Risk Monitoring (continuously tracking and reviewing risks).",
+    "type": "short answer",
+    "difficulty": "intermediate",
+    "goal": "Cyber Security",
+    "topic": "Risk Management"
+  },
+  {
+    "context": "Understanding vulnerabilities is key to proactive security.",
+    "question": "Define 'vulnerability' in cybersecurity terms and provide two examples of common software vulnerabilities.",
+    "answer": "A vulnerability is a weakness or flaw in a system, application, or process that could be exploited by a threat. Examples include SQL injection and cross-site scripting (XSS).",
+    "type": "short answer",
+    "difficulty": "beginner",
+    "goal": "Cyber Security",
+    "topic": "Vulnerability Management"
+  },
+  {
+    "context": "Threats can be internal or external, intentional or unintentional.",
+    "question": "What is a 'threat' in the context of cybersecurity? Give an example of both an internal and an external threat.",
+    "answer": "A threat is a potential danger or possibility of an attack that could exploit a vulnerability. An internal threat could be a disgruntled employee, while an external threat could be a nation-state sponsored hacking group.",
+    "type": "short answer",
+    "difficulty": "beginner",
+    "goal": "Cyber Security",
+    "topic": "Threat Assessment"
+  },
+  {
+    "context": "Reducing the attack surface minimizes risk.",
+    "question": "Explain the concept of 'attack surface' and suggest two methods to reduce an organization's attack surface.",
+    "answer": "The attack surface represents all points where an attacker can try to gain unauthorized access to a system or network. Two methods to reduce it are disabling unnecessary services/ports and implementing strict firewall rules.",
+    "type": "short answer",
+    "difficulty": "intermediate",
+    "goal": "Cyber Security",
+    "topic": "Attack Surface"
+  },
+  {
+    "context": "Security policies are the foundation of an information security program.",
+    "question": "Why are clear and concise 'security policies' essential for an organization's overall cybersecurity posture?",
+    "answer": "Security policies are essential because they define the rules and guidelines for protecting information assets, establish acceptable behavior, ensure compliance with regulations, and assign responsibilities, providing a framework for consistent security practices.",
+    "type": "short answer",
+    "difficulty": "intermediate",
+    "goal": "Cyber Security",
+    "topic": "Security Policies"
+  },
+  {
+    "context": "Preventive controls aim to stop incidents before they occur.",
+    "question": "Provide two examples of 'preventive security controls' and explain how they function.",
+    "answer": "Two examples are firewalls and encryption. Firewalls filter network traffic to block unauthorized access, and encryption scrambles data to prevent unauthorized disclosure, even if data is accessed.",
+    "type": "short answer",
+    "difficulty": "beginner",
+    "goal": "Cyber Security",
+    "topic": "Preventive Controls"
+  },
+  {
+    "context": "Detective controls are crucial for early warning.",
+    "question": "Give two examples of 'detective security controls' and describe their role in incident response.",
+    "answer": "Two examples are Intrusion Detection Systems (IDS) and security camera systems. An IDS monitors network or system activities for suspicious patterns and alerts administrators, while security cameras detect unauthorized physical access, both aiding in early incident detection.",
+    "type": "short answer",
+    "difficulty": "intermediate",
+    "goal": "Cyber Security",
+    "topic": "Detective Controls"
+  },
+  {
+    "context": "Corrective controls focus on recovery.",
+    "question": "Identify two types of 'corrective security controls' and explain their importance after a security incident.",
+    "answer": "Two types are incident response plans and data backups. Incident response plans outline steps to contain, eradicate, and recover from an incident, while data backups allow for restoration of lost or corrupted data, both minimizing downtime and impact after a breach.",
+    "type": "short answer",
+    "difficulty": "intermediate",
+    "goal": "Cyber Security",
+    "topic": "Corrective Controls"
+  },
+  {
+    "context": "The 'shared responsibility model' is prevalent in cloud computing.",
+    "question": "How does the 'shared responsibility model' in cloud computing affect an organization's approach to implementing CIA Triad principles?",
+    "answer": "It means the cloud provider is responsible for security 'of' the cloud (e.g., physical infrastructure, hypervisor), while the customer is responsible for security 'in' the cloud (e.g., data encryption, network configurations, patching guest OS), thus requiring organizations to clearly understand their security responsibilities for each service model (IaaS, PaaS, SaaS).",
+    "type": "short answer",
+    "difficulty": "advanced",
+    "goal": "Cyber Security",
+    "topic": "Cloud Security"
+  }
+]

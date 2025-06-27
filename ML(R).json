@@ -1,0 +1,353 @@
+[
+  {
+    "context": "Supervised learning uses labeled data to train models to make predictions.",
+    "question": "Which of the following best describes supervised learning?",
+    "answer": "machine learning approach that uses labeled data to predict outcomes",
+    "options": [
+      "A machine learning approach that uses labeled data to predict outcomes",
+      "A method that discovers hidden patterns in unlabeled data",
+      "A process of manually coding rules for decision-making",
+      "A technique used exclusively in deep learning models"
+    ],
+    "type": "mcq",
+    "difficulty": "beginner",
+    "goal": "Machine Learning",
+    "topic": "Supervised Learning"
+  },
+  {
+    "context": "Unsupervised learning is commonly used for tasks like clustering and dimensionality reduction.",
+    "question": "Which task is typically associated with unsupervised learning?",
+    "answer": "Customer segmentation based on purchasing behavior",
+    "options": [
+      "Email spam detection using historical data",
+      "Customer segmentation based on purchasing behavior",
+      "Predicting house prices using past sales data",
+      "Detecting loan defaults from user profiles"
+    ],
+    "type": "mcq",
+    "difficulty": "intermediate",
+    "goal": "Machine Learning",
+    "topic": "Unsupervised Learning"
+  },
+  {
+    "context": "Algorithms like K-Means and DBSCAN are key tools in unsupervised learning.",
+    "question": "Which algorithm is primarily used in unsupervised learning for clustering?",
+    "answer": "K-Means",
+    "options": [
+      "Logistic Regression",
+      "Decision Tree",
+      "K-Means",
+      "Linear Regression"
+    ],
+    "type": "mcq",
+    "difficulty": "intermediate",
+    "goal": "Machine Learning",
+    "topic": "Clustering"
+  },
+  {
+    "context": "Supervised learning can be divided into classification and regression tasks.",
+    "question": "Which of the following is a supervised learning regression task?",
+    "answer": "Predicting the price of a car based on its features",
+    "options": [
+      "Clustering social media posts into topics",
+      "Identifying handwritten digits in scanned documents",
+      "Grouping news articles by subject",
+      "Predicting the price of a car based on its features"
+    ],
+    "type": "mcq",
+    "difficulty": "advanced",
+    "goal": "Machine Learning",
+    "topic": "Regression"
+  },
+  {
+    "context": "The choice between supervised and unsupervised learning depends on the availability of labeled data.",
+    "question": "When should unsupervised learning be preferred over supervised learning?",
+    "answer": "When labeled data is unavailable and pattern discovery is required",
+    "options": [
+      "When labeled data is abundant and prediction is needed",
+      "When working with classification problems involving images",
+      "When labeled data is unavailable and pattern discovery is required",
+      "When optimizing performance using test set metrics"
+    ],
+    "type": "mcq",
+    "difficulty": "advanced",
+    "goal": "Machine Learning",
+    "topic": "ML Paradigms"
+  },
+  {
+    "context": "Supervised learning involves a target output and a labeled dataset.",
+    "question": "What type of dataset is required for supervised learning?",
+    "answer": "A labeled dataset.",
+    "type": "short_answer",
+    "difficulty": "beginner",
+    "goal": "Machine Learning",
+    "topic": "Supervised Learning"
+  },
+  {
+    "context": "Unsupervised learning seeks to discover inherent structures in data without labeled outputs.",
+    "question": "What is the main goal of unsupervised learning?",
+    "answer": "To discover hidden patterns or structures in data.",
+    "type": "short_answer",
+    "difficulty": "beginner",
+    "goal": "Machine Learning",
+    "topic": "Unsupervised Learning"
+  },
+  {
+    "context": "Classification algorithms in supervised learning categorize input data into discrete labels.",
+    "question": "Give one example of a classification task in supervised learning.",
+    "answer": "Email spam detection.",
+    "type": "short_answer",
+    "difficulty": "intermediate",
+    "goal": "Machine Learning",
+    "topic": "Classification"
+  },
+  {
+    "context": "Clustering is a key application of unsupervised learning used for data grouping.",
+    "question": "Which unsupervised technique is used to group similar data points?",
+    "answer": "Clustering.",
+    "type": "short_answer",
+    "difficulty": "intermediate",
+    "goal": "Machine Learning",
+    "topic": "Clustering"
+  },
+  {
+    "context": "Linear Regression and Logistic Regression are examples of supervised learning algorithms.",
+    "question": "Name one supervised learning algorithm used for regression.",
+    "answer": "Linear Regression.",
+    "type": "short_answer",
+    "difficulty": "advanced",
+    "goal": "Machine Learning",
+    "topic": "Regression"
+  },
+  {
+    "context": "Machine learning algorithms can be broadly categorized into supervised and unsupervised learning paradigms. Supervised learning requires labeled training data where both input features and target outputs are provided, while unsupervised learning works with unlabeled data to discover hidden patterns.",
+    "question": "What is the fundamental difference between supervised and unsupervised learning?",
+    "answer": "Supervised learning uses labeled data with known outputs, while unsupervised learning finds patterns in unlabeled data",
+    "options": [
+      "Supervised learning uses labeled data with known outputs, while unsupervised learning finds patterns in unlabeled data",
+      "Supervised learning is faster to train than unsupervised learning algorithms",
+      "Supervised learning only works with numerical data, while unsupervised learning works with categorical data",
+      "Supervised learning requires more computational resources than unsupervised learning"
+    ],
+    "type": "mcq",
+    "difficulty": "beginner",
+    "goal": "Machine Learning",
+    "topic": "ML Paradigms"
+  },
+  {
+    "context": "In supervised learning, common algorithms include linear regression for continuous outcomes, logistic regression for binary classification, decision trees for interpretable models, and support vector machines for complex decision boundaries. Each algorithm has specific strengths for different problem types.",
+    "question": "Which supervised learning algorithm would be most appropriate for predicting house prices based on features like size, location, and age?",
+    "answer": "Linear regression",
+    "options": [
+      "K-means clustering",
+      "Linear regression",
+      "Principal Component Analysis",
+      "Hierarchical clustering"
+    ],
+    "type": "mcq",
+    "difficulty": "intermediate",
+    "goal": "Machine Learning",
+    "topic": "Regression"
+  },
+  {
+    "context": "Unsupervised learning encompasses various techniques including clustering algorithms like K-means and hierarchical clustering, dimensionality reduction methods such as Principal Component Analysis (PCA) and t-SNE, and association rule mining for market basket analysis. These methods reveal underlying data structures without requiring labeled examples.",
+    "question": "In the context of customer segmentation for marketing campaigns, which combination of unsupervised learning techniques would provide the most comprehensive analysis?",
+    "answer": "K-means clustering for grouping customers and PCA for dimensionality reduction",
+    "options": [
+      "Linear regression and logistic regression for predicting customer behavior",
+      "Decision trees and random forests for classification of customer types",
+      "K-means clustering for grouping customers and PCA for dimensionality reduction",
+      "Support vector machines and neural networks for pattern recognition"
+    ],
+    "type": "mcq",
+    "difficulty": "advanced",
+    "goal": "Machine Learning",
+    "topic": "Clustering"
+  },
+  {
+    "context": "Semi-supervised learning represents a hybrid approach that combines elements of both supervised and unsupervised learning paradigms. It leverages small amounts of labeled data alongside larger volumes of unlabeled data to improve model performance, particularly useful when labeling is expensive or time-consuming.",
+    "question": "What scenario would benefit most from semi-supervised learning approaches?",
+    "answer": "Medical image analysis where expert annotations are limited but raw images are abundant",
+    "options": [
+      "Medical image analysis where expert annotations are limited but raw images are abundant",
+      "Weather prediction where historical labeled data is extensive and readily available",
+      "Simple binary classification tasks with balanced and well-labeled datasets",
+      "Clustering analysis of customer demographics for market research"
+    ],
+    "type": "mcq",
+    "difficulty": "advanced",
+    "goal": "Machine Learning",
+    "topic": "Semi-Supervised Learning"
+  },
+  {
+    "context": "The choice between supervised and unsupervised learning depends on the availability of labeled data, the specific business objective, and the nature of insights required. Supervised learning excels at prediction tasks, while unsupervised learning is ideal for exploratory data analysis and pattern discovery.",
+    "question": "For a recommendation system that suggests products to users based on their purchase history, which learning approach would be most suitable?",
+    "answer": "Collaborative filtering using unsupervised learning techniques",
+    "options": [
+      "Supervised classification to predict exact products users will buy",
+      "Linear regression to forecast spending amounts for each user",
+      "Decision trees to classify users into predefined shopping categories",
+      "Collaborative filtering using unsupervised learning techniques"
+    ],
+    "type": "mcq",
+    "difficulty": "intermediate",
+    "goal": "Machine Learning",
+    "topic": "Recommendation Systems"
+  },
+  {
+    "context": "Supervised learning algorithms require training datasets with input-output pairs to learn mappings between features and target variables. The quality and quantity of labeled training data directly impacts model performance and generalization capability.",
+    "question": "Why is labeled training data essential for supervised learning algorithms?",
+    "answer": "Supervised learning algorithms need labeled examples to learn the relationship between input features and target outputs, enabling them to make predictions on new, unseen data.",
+    "type": "short_answer",
+    "difficulty": "beginner",
+    "goal": "Machine Learning",
+    "topic": "Supervised Learning"
+  },
+  {
+    "context": "Unsupervised learning techniques like clustering and dimensionality reduction are particularly valuable for exploratory data analysis when the underlying structure of data is unknown. These methods can reveal hidden patterns, group similar data points, and reduce complexity without requiring predefined labels.",
+    "question": "How does K-means clustering determine the optimal grouping of data points in unsupervised learning?",
+    "answer": "K-means clustering minimizes the within-cluster sum of squares by iteratively updating cluster centroids and reassigning data points to the nearest centroid until convergence is achieved.",
+    "type": "short_answer",
+    "difficulty": "intermediate",
+    "goal": "Machine Learning",
+    "topic": "Clustering"
+  },
+  {
+    "context": "The curse of dimensionality affects both supervised and unsupervised learning algorithms, but manifests differently in each paradigm. High-dimensional data can lead to sparsity issues, increased computational complexity, and reduced algorithm effectiveness, requiring different mitigation strategies.",
+    "question": "Explain how the curse of dimensionality differently impacts supervised versus unsupervised learning algorithms.",
+    "answer": "In supervised learning, high dimensionality can cause overfitting and reduced generalization due to sparse labeled data, while in unsupervised learning, it makes distance-based measures less meaningful and clustering less effective, often requiring dimensionality reduction preprocessing.",
+    "type": "short_answer",
+    "difficulty": "advanced",
+    "goal": "Machine Learning",
+    "topic": "Dimensionality Reduction"
+  },
+  {
+    "context": "Evaluation metrics differ significantly between supervised and unsupervised learning due to the availability of ground truth labels. Supervised learning uses metrics like accuracy, precision, and recall, while unsupervised learning relies on internal measures like silhouette score and elbow method.",
+    "question": "What are the main challenges in evaluating unsupervised learning models compared to supervised learning models?",
+    "answer": "Unsupervised learning evaluation is challenging because there are no ground truth labels to compare against, requiring internal validation metrics like silhouette score, inertia, or domain expert assessment to judge cluster quality and pattern meaningfulness.",
+    "type": "short_answer",
+    "difficulty": "intermediate",
+    "goal": "Machine Learning",
+    "topic": "Evaluation Metrics"
+  },
+  {
+    "context": "Transfer learning and domain adaptation represent advanced applications where knowledge gained from supervised learning in one domain can be applied to related problems, even when moving between supervised and unsupervised settings. This approach is particularly valuable when labeled data is scarce in the target domain.",
+    "question": "Describe a scenario where transfer learning could bridge supervised and unsupervised learning approaches.",
+    "answer": "A pre-trained image classification model (supervised) can be used for feature extraction in an unsupervised clustering task for new image categories, where the learned features help group similar images even without labels for the new domain.",
+    "type": "short_answer",
+    "difficulty": "advanced",
+    "goal": "Machine Learning",
+    "topic": "Transfer Learning"
+  },
+  {
+    "context": "Machine learning paradigms are broadly categorized based on the nature of the data and the learning task.",
+    "question": "Which of the following scenarios is best suited for an unsupervised learning approach?",
+    "answer": "Grouping customer purchasing behaviors to identify distinct market segments without prior labels.",
+    "options": [
+      "Grouping customer purchasing behaviors to identify distinct market segments without prior labels.",
+      "Predicting house prices based on features like size, location, and number of bedrooms from historical sales data.",
+      "Classifying emails as 'spam' or 'not spam' using a dataset of previously labeled emails.",
+      "Recognizing handwritten digits by training on a large dataset of images with corresponding digit labels."
+    ],
+    "type": "mcq",
+    "difficulty": "intermediate",
+    "goal": "Machine Learning",
+    "topic": "Unsupervised Learning"
+  },
+  {
+    "context": "Supervised learning models rely on labeled datasets to learn mappings between inputs and outputs.",
+    "question": "What is the primary difference in the data requirement between supervised and unsupervised learning algorithms?",
+    "answer": "Supervised learning requires input data with corresponding output labels, while unsupervised learning operates on unlabeled input data.",
+    "options": [
+      "Supervised learning requires numerical data, while unsupervised learning works only with categorical data.",
+      "Supervised learning requires input data with corresponding output labels, while unsupervised learning operates on unlabeled input data.",
+      "Supervised learning always uses larger datasets than unsupervised learning.",
+      "Supervised learning needs real-time data streams, whereas unsupervised learning can only use static datasets."
+    ],
+    "type": "mcq",
+    "difficulty": "beginner",
+    "goal": "Machine Learning",
+    "topic": "ML Paradigms"
+  },
+  {
+    "context": "Various algorithms fall under the umbrella of supervised and unsupervised learning, each designed for specific problem types.",
+    "question": "Among the following, which algorithm is exclusively associated with unsupervised learning tasks?",
+    "answer": "K-Means Clustering",
+    "options": [
+      "Support Vector Machine (SVM)",
+      "Linear Regression",
+      "K-Means Clustering",
+      "Logistic Regression"
+    ],
+    "type": "mcq",
+    "difficulty": "beginner",
+    "goal": "Machine Learning",
+    "topic": "Unsupervised Learning"
+  },
+  {
+    "context": "The ultimate goal often distinguishes supervised from unsupervised learning, even when similar data types are involved.",
+    "question": "A data scientist is tasked with building a system to identify anomalies in network traffic, where no prior examples of 'anomalous' traffic are available for training. Which machine learning paradigm is most appropriate for this task, and why?",
+    "answer": "Unsupervised learning, because the goal is to discover patterns or outliers in unlabeled data without prior knowledge of what constitutes an anomaly.",
+    "options": [
+      "Supervised learning, as it allows the model to learn from historical network traffic data.",
+      "Reinforcement learning, as it involves learning through trial and error in an environment.",
+      "Semi-supervised learning, to combine a small amount of labeled data with a large amount of unlabeled data.",
+      "Unsupervised learning, because the goal is to discover patterns or outliers in unlabeled data without prior knowledge of what constitutes an anomaly."
+    ],
+    "type": "mcq",
+    "difficulty": "advanced",
+    "goal": "Machine Learning",
+    "topic": "Anomaly Detection"
+  },
+  {
+    "context": "When building a recommendation system, different machine learning approaches can be employed depending on the available data.",
+    "question": "If a recommendation system suggests products to users based on their past purchases and a dataset of product features (without explicit ratings), which type of learning is predominantly being utilized?",
+    "answer": "Unsupervised learning, specifically clustering or dimensionality reduction for collaborative filtering.",
+    "options": [
+      "Unsupervised learning, specifically clustering or dimensionality reduction for collaborative filtering.",
+      "Supervised learning, as the system learns to predict user preferences based on past interactions.",
+      "Reinforcement learning, adapting to user feedback over time.",
+      "Semi-supervised learning, using a small set of user ratings to guide recommendations."
+    ],
+    "type": "mcq",
+    "difficulty": "advanced",
+    "goal": "Machine Learning",
+    "topic": "Recommendation Systems"
+  },
+  {
+    "context": "Predictive modeling often falls into the supervised learning category, but not always.",
+    "question": "Explain a scenario where a predictive task might leverage an unsupervised learning approach, even if the ultimate goal seems 'predictive'.",
+    "answer": "An example is anomaly detection. While the ultimate goal is to 'predict' if a new data point is an anomaly, if there's no labeled data for 'normal' vs. 'anomalous' behavior, unsupervised techniques like clustering or isolation forests can be used to identify data points that deviate significantly from the majority, thus implicitly 'predicting' anomalies.",
+    "type": "short_answer",
+    "difficulty": "advanced",
+    "goal": "Machine Learning",
+    "topic": "Anomaly Detection"
+  },
+  {
+    "context": "Machine learning algorithms are chosen based on the problem type and data availability.",
+    "question": "Name two distinct algorithms, one from supervised learning and one from unsupervised learning, and briefly describe a suitable use case for each.",
+    "answer": "Supervised: Logistic Regression - used for binary classification, e.g., predicting if a customer will churn (yes/no) based on their usage data. Unsupervised: K-Means Clustering - used for grouping similar data points, e.g., segmenting customers into different groups based on their demographics and purchasing habits.",
+    "type": "short_answer",
+    "difficulty": "intermediate",
+    "goal": "Machine Learning",
+    "topic": "ML Algorithms"
+  },
+  {
+    "context": "The fundamental distinction between supervised and unsupervised learning lies in the nature of the training data.",
+    "question": "If you are given a dataset of images of animals and told to group them into species without any prior labels indicating the species, which machine learning paradigm would you primarily use and why?",
+    "answer": "You would primarily use Unsupervised Learning. This is because you are given unlabeled data (images) and your task is to discover inherent patterns or structures within the data to group them, rather than learning a mapping from input to pre-defined output labels.",
+    "type": "short_answer",
+    "difficulty": "beginner",
+    "goal": "Machine Learning",
+    "topic": "Clustering"
+  },
+  {
+    "context": "Identifying the appropriate machine learning paradigm is crucial for problem-solving.",
+    "question": "What is the key characteristic of the output in a supervised learning task?",
+    "answer": "The key characteristic of the output in a supervised learning task is that it is predefined and known in advance. The model learns to map inputs to these specific output values or categories based on labeled training examples.",
+    "type": "short_answer",
+    "difficulty": "beginner",
+    "goal": "Machine Learning",
+    "topic": "Supervised Learning"
+  }
+]

@@ -1,0 +1,40 @@
+{
+  "generator_mode": "model",
+  "version": "1.0.0",
+
+  "default_num_questions": 5,
+  "max_questions": 10,
+
+  "supported_difficulties": ["beginner", "intermediate", "advanced"],
+  "supported_types": ["mcq", "short_answer"],
+
+  "retrieval_supported_goals": [
+    "AWS Cloud Practitioner",
+    "Cybersecurity",
+    "Machine Learning",
+    "Amazon SDE",
+    "GATE ECE",
+    "GATE CSE"
+  ],
+
+  "model_supported_goals": [
+    "AWS Cloud Practitioner",
+    "Amazon SDE",
+    "GATE ECE",
+    "GATE CSE"
+  ],
+
+  "domain_files": {
+    "AWS Cloud Practitioner": "AWS(R).json",
+    "Cybersecurity": "CS(R).json",
+    "Machine Learning": "ML(R).json",
+    "Amazon SDE": "Amazon SDE.json",
+    "GATE ECE": "GATE ECE.json",
+    "GATE CSE": "GATE CSE.json"
+  },
+
+  "model_dataset": "./data/Model.json",
+  "t5-model_path": "./app/models/t5-small",
+  "sentence_transformer_path": "./app/models/sentence-transformer-model",
+  "spacy_model": "./app/models/spacy/en_core_web_sm/en_core_web_sm-3.8.0"
+}

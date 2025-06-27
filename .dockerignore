@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+*.log
+*.tmp
+*.ipynb
+.env
+.venv/
+notebooks/
+tests/
+output/
+*.pt
+*.tar.gz
+*.zip
+*.rar
+*.7z
